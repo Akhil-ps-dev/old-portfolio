@@ -146,12 +146,7 @@ span {
     letter-spacing: 2px;
 }
 
-.newslatter form {
 
-    width: 380px;
-    max-width: 100%;
-    position: relative;
-}
 
 .newslatter form input:first-child {
     display: inline-block;
@@ -365,7 +360,7 @@ sticky .h-btn {
 /* ccontact */
 .contact {
     background: var(--bg-color);
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
     gap: 3rem;
@@ -385,7 +380,42 @@ sticky .h-btn {
     font-size: var(--p-font);
     margin-bottom: 4.1rem;
 }
+.contact-form form{
+    position: relative;
 
+}
+.contact-form form input,
+    form textarea{
+width: 100%;
+padding: 20px;
+border: none;
+outline: none;
+background: var(--second-bg-color);
+color: var(--text-color);
+font-size: 1rem;
+ margin-bottom: 0.5rem;
+ border-radius: 10px;   
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-form form .send{
+display: inline;
+background-color: var(--second-color);
+color: var(--text-color);
+font-size: 15px;
+font-weight: 600;
+border-radius: 30px;
+/* width: 200px; */
+transition: ease .35s;
+text-transform: uppercase;
+}
+.contact-form form .send:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}
 
 
 /* media query */
@@ -558,3 +588,4 @@ margin-left: 30%;
 
 
 }
+
