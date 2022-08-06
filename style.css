@@ -134,6 +134,14 @@ section {
 span {
     color: var(--second-color);
 }
+.talk{
+    font-size: var(--p-font);
+    color: var(--about-color);
+    /* background-color: #12B0E8; */
+border-radius: 20px;
+height: 20px;
+color: #12B0E8;
+}
 
 .home-text h3 {
     font-size: 25px;
