@@ -41,7 +41,7 @@ header {
 }
 
 .logo {
-    color: var(--text-color);
+    color: var(--bg-color);
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -521,9 +521,10 @@ text-transform: uppercase;
         width: 760px;
         height: auto;
     }
+    
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .box img {
       
         padding: 10px ;
@@ -541,6 +542,10 @@ text-transform: uppercase;
     }
 .service-content .row{
     display: inline;
+
+}
+.service-content {
+    display: flex;
 
 }
 .about-text .btn{
